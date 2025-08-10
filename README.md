@@ -1,4 +1,4 @@
-# B92 Protocol Optimisation
+# Optimal Implementation for the B92 Protocol
 
 This project investigates the optimal implementation of the **B92 quantum key distribution (QKD) protocol**. The goal is to determine the optimal non-orthogonal angle that maximises the secure key generation rate under varying noise conditions. The model assumes that all noise (error rate) originates from eavesdropping attacks and is evaluated against **collective** and **individual** attack models.
 
