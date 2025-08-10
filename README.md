@@ -14,7 +14,9 @@ A detailed dissertation paper describing the algorithms and discussion of result
 - Across the noise range:
   - **Individual attacks** consistently maintain slightly higher \( R \) than collective attacks for the same ε.
   - **Collective attacks** degrade faster as noise increases.
-- The comparative notebook (`collective_vs_individual.ipynb`) visually illustrates this performance gap.
+- The comparative notebook (`collective_vs_individual.ipynb`) visually illustrates this performance gap among other analyses.
+
+<img src="main%20result.png" alt="Comparison Result" width="550">
 
 **Limitations:**  
 These results are based on an **idealised model** that assumes:
