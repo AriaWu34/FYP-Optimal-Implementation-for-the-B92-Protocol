@@ -2,7 +2,7 @@
 
 This project investigates the optimal implementation of the **B92 quantum key distribution (QKD) protocol**. The goal is to determine the optimal non-orthogonal angle that maximises the secure key generation rate under varying noise conditions. The model assumes that all noise (error rate) originates from eavesdropping attacks and is evaluated against **collective** and **individual** attack models.
 
-A detailed dissertation paper describing the algorithms and results is **available upon request**.
+A detailed dissertation paper describing the algorithms and discussion of results is **available upon request**.
 
 ---
 
@@ -10,7 +10,7 @@ A detailed dissertation paper describing the algorithms and results is **availab
 
 **Key Results:**  
 - **Max secure key rate (R)** for both attack types is approximately **0.50** at negligible noise (ε ≈ 0).
-- **Cutoff noise threshold** that maintains the security and efficiency of the B92 protocol is around **ε ≈ 0.2** for both attack types.
+- **Cutoff noise threshold** (where R >= 0.1) is around **ε ≈ 0.1** for both attack types.
 - Across the noise range:
   - **Individual attacks** consistently maintain slightly higher \( R \) than collective attacks for the same ε.
   - **Collective attacks** degrade faster as noise increases.
